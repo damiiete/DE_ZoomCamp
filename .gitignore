@@ -1,2 +1,4 @@
 gitignore/
 ny_taxi_postgres_data/
+output.csv
+yellow_tripdata_2021-01.csv
