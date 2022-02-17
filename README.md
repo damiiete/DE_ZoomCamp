@@ -11,10 +11,10 @@
 - Docker-compose file was used to create the containers in the same network to ensure communication between containers.
 - The postgresql database in the container was bound to a persistent ocal volume to preserve data even after the container is restarted.
 
-## Dwonloading and Transformation of Data
+## Download and Transformation of Data
 The [NYC taxi trip data](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) was used for this project.
 - Downloaded the data using `wget`.
 - Data was transformed using the `pandas` library.
 
-## Uploadig Data
+## Uploading Data
 - The `sqlalchemy` library was used to make connection with the database to upload data.
